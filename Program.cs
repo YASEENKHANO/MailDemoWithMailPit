@@ -17,7 +17,7 @@ var bb = new BodyBuilder();
 
 bb.TextBody = "Testing text plain with bodybuilder";
 
-//Third version with embedded image in Html body
+//Third version with embedded image in Html body 
 var imageEntity = bb.LinkedResources.Add("E:\\SendingEmail\\MailDemo\\me.png");
 
 imageEntity.ContentId = MimeUtils.GenerateMessageId();
